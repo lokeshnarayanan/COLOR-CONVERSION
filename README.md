@@ -24,6 +24,7 @@ Output the image using cv2.imshow("OUTPUT", image).
 ```python
 # Developed By:Lokesh N
 # Register Number:212222100023
+```
 # i) Convert BGR and RGB to HSV and GRAY
 ```python
 import cv2
@@ -44,7 +45,7 @@ cv2.destroyAllWindows()
 
 # ii)Convert HSV to RGB and BGR
 
-```
+```python
 import cv2
 houseHSVImage = cv2.imread('car.png')
 cv2.imshow('212222100023-lokesh',houseHSVImage)
@@ -58,7 +59,7 @@ cv2.destroyAllWindows()
 
 
 # iii)Convert RGB and BGR to YCrCb
-```
+```python
 import cv2
 houseImage = cv2.imread('car.png')
 cv2.imshow('212222100023-lokesh',houseImage)
@@ -73,7 +74,7 @@ cv2.destroyAllWindows()
 
 
 # iv)Split and Merge RGB Image
-```
+```python
 import cv2
 image = cv2.imread('car.png')
 blue = image[:,:,0]
@@ -91,7 +92,7 @@ cv2.destroyAllWindows()
 
 
 # v) Split and merge HSV Image
-```
+```python
 import cv2
 image = cv2.imread('car.png')
 hsv = cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
